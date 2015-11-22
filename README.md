@@ -46,7 +46,7 @@ Following is a simple example showing how to use this project:
     Parser: &parser.GoogleSearchParser{},
   }
   r := c.Start()
-  // If you call r["seo"][1], you will get a slice of the first page of the search result of the keyword 'seo'.
+  // If you call r["seo"][0], you will get a slice of the first page of the search result of the keyword 'seo'.
 ```
 ## Parser Example
 
