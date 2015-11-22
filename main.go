@@ -33,8 +33,6 @@ type Crawler struct {
 	Parser
 }
 
-// input: map[string][]int
-//           (keyword)(a slice of the page number you want to crawl)
 func (c *Crawler) Start() map[string][][]Result {
 	channel := make(chan IntermediatePair)
 
@@ -74,8 +72,7 @@ func (c *Crawler) deliverSearchResultParsingTasks(channel chan IntermediatePair)
 
 func reduceResult(channel chan IntermediatePair) map[string][][]Result {
 	var result map[string][][]Result = make(map[string][][]Result)
-	//  (keyword map)(page slice)(value string)
-	// keyword: {page1: {}, page2: {}}
+	//  (keyword map)(page slice)(Result string)
 
 	for pair := range channel {
 		for pair.Page+1 > len(result[pair.Keyword]) {
