@@ -3,7 +3,7 @@
 ## Installation
 
 ``` bash
-go get https://github.com/WithGJR/search-result-crawler
+go get github.com/WithGJR/search-result-crawler
 ```
 
 ## How to Use
