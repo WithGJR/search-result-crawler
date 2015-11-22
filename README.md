@@ -1,4 +1,4 @@
-# A Framework For Writing Your Own Search Result Crawler 
+# A Framework For Writing Your Own Search Result Crawler in Golang
 
 ## Installation
 
