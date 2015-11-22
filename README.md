@@ -51,3 +51,7 @@ Following is a simple example showing how to use this project:
 ## Parser Example
 
 - [Google Taiwan Search Parser](https://github.com/WithGJR/google-search-parser)
+
+## Chinese Tutorial
+
+I wrote a Chinese tutorial and posted it on my blog: [Golang - 如何寫爬蟲抓搜尋引擎的搜尋結果？](http://blog.cgmlife.net/posts/2015/11/22/how-to-write-search-result-crawler-in-golang).
